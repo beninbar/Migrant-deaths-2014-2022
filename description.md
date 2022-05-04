@@ -1,0 +1,5 @@
+Each year, growing numbers of migrants undertake perilous overseas or overland crossings, or both. This map details every recorded occurrence of death or disappearance in a migratory context. It reveals both the scale of the toll in broadstrokes, a catastrophe clearly delineated along routes originating in the global south, while also providing poignant details via clickable popups.
+
+The [data](https://missingmigrants.iom.int/downloads) shown here were collected by the [Missing Migrants Project](https://missingmigrants.iom.int/), and is a continuation of a [previous project](https://beninbar.github.io/Migrant-deaths/migrantdeaths.html).[^1]
+
+[^1]: These data were inspired by [The Migrant's Files](http://www.themigrantsfiles.com/), an open-source academic enterprise in [data journalism](https://jplusplus.org/en/) which spearheaded the effort to track migrant deaths. Although the project was suspended in 2016, the [International Organization for Migration](https://gmdac.iom.int/map-tracking-migrant-deaths-and-disappearances) took up the mantle and continued this work, which is shown on this page.

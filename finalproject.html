@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mapping migrant deaths</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="crossorigin=""/>
+    <link rel="stylesheet" href="finalproject.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Where are they?</h3>
+      <h5>Migrant deaths, 2014-2022</h5>
+        <div class="row">
+          <div class="col-md-1" id="yearodex">
+            <h1 id="yearodex2014">2014</h1>
+            <h1 id="yearodex2015">2015</h1>
+            <h1 id="yearodex2016">2016</h1>
+            <h1 id="yearodex2017">2017</h1>
+            <h1 id="yearodex2018">2018</h1>
+            <h1 id="yearodex2019">2019</h1>
+            <h1 id="yearodex2020">2020</h1>
+            <h1 id="yearodex2021">2021</h1>
+            <h1 id="yearodex2022">2022</h1>
+          </div>
+          <div class="col-md-11" id="mapcolumn">
+            <div id="migrantdeaths" class="map"></div>
+            <div id="mapdescription"></div>
+          </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
+
+    <!---Markdown--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.0/markdown-it.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it-footnote/3.0.2/markdown-it-footnote.js"></script>
+
+    <!---Polyline decorator--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-polylinedecorator/1.1.0/leaflet.polylineDecorator.min.js"></script>
+
+    <!---Snaking/animation of polylines-->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.polyline.snakeanim@0.2.0/L.Polyline.SnakeAnim.min.js"></script>
+
+    <!---d3.js-->
+    <script src="lib/d3.js"></script>
+
+    <script src="finalproject.js"></script>
+  </body>
+</html>
