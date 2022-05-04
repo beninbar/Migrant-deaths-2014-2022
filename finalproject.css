@@ -15,10 +15,10 @@ html {
     min-height: 100%;
 }
 h1 {
-    text-align: center;
     justify-items: center;
     font-family: 'Raleway Dots', cursive;
     color: white;
+    font-weight: 500;
 }
 h3 {
     margin-top: 10px;
@@ -32,6 +32,11 @@ h3, h5 {
     color: white;
     font-weight: 600;
 }
+/*h6 {
+    text-align: center;
+    font-family: 'Raleway Dots', cursive;
+    color: white;
+}*/
 .container {
     display: flex;
     justify-content: center;
@@ -100,113 +105,151 @@ h5 {
 
 /* Circle transition */
 @keyframes circlemarkerTrans {
-    from {
+    0% {
+        stroke: red;
         opacity: 0;
     }
-
-    to {
+    50% {
+        stroke: red;
         opacity: 1;
+    }
+    100% {
+        stroke: red;
+        opacity: 0;
     }
 }
 .circle-transition14 {
-    animation: circlemarkerTrans 3s ease-in;
+    animation: circlemarkerTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 7s, 52s;
+    animation-fill-mode: both, forwards;
 }
 .circle-transition15 {
-    animation: circlemarkerTrans 3s ease-in;
-    animation-delay: 3s;
-    animation-fill-mode: both
+    animation: circlemarkerTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 12s, 52s;
+    animation-fill-mode: both, forwards;
 }
 .circle-transition16 {
-    animation: circlemarkerTrans 3s ease-in;
-    animation-delay: 6s;
-    animation-fill-mode: both
+    animation: circlemarkerTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 17s, 52s;
+    animation-fill-mode: both, forwards;
 }
 .circle-transition17 {
-    animation: circlemarkerTrans 3s ease-in;
-    animation-delay: 9s;
-    animation-fill-mode: both
+    animation: circlemarkerTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 22s, 52s;
+    animation-fill-mode: both, forwards;
 }
 .circle-transition18 {
-    animation: circlemarkerTrans 3s ease-in;
-    animation-delay: 12s;
-    animation-fill-mode: both
+    animation: circlemarkerTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 27s, 52s;
+    animation-fill-mode: both, forwards;
 }
 .circle-transition19 {
-    animation: circlemarkerTrans 3s ease-in;
-    animation-delay: 15s;
-    animation-fill-mode: both
+    animation: circlemarkerTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 32s, 52s;
+    animation-fill-mode: both, forwards;
 }
 .circle-transition20 {
-    animation: circlemarkerTrans 3s ease-in;
-    animation-delay: 18s;
-    animation-fill-mode: both
+    animation: circlemarkerTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 37s, 52s;
+    animation-fill-mode: both, forwards;
 }
 .circle-transition21 {
-    animation: circlemarkerTrans 3s ease-in;
-    animation-delay: 21s;
-    animation-fill-mode: both
+    animation: circlemarkerTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 42s, 52s;
+    animation-fill-mode: both, forwards;
 }
 .circle-transition22 {
-    animation: circlemarkerTrans 3s ease-in;
-    animation-delay: 24s;
-    animation-fill-mode: both
+    animation: circlemarkerTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 47s, 52s;
+    animation-fill-mode: both, forwards;
 }
 
 /* Year-odex transitions */
-@keyframes yearodex {
-    from {
+@keyframes yearodexTrans {
+    0% {
         opacity: 0;
     }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
-    to {
+@keyframes makevisible {
+    0% {
+        opacity: 0;
+    }
+    100% {
         opacity: 1;
     }
 }
+
 #yearodex2014 {
-    animation: yearodex 3s;
-    animation-delay: 17s;
-    animation-fill-mode: both
+    animation: yearodexTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 7s, 52s;
+    animation-fill-mode: both, forwards;
 }
 #yearodex2015 {
-    animation: yearodex 3s;
-    animation-delay: 20s;
-    animation-fill-mode: both
+    animation: yearodexTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 12s, 52s;
+    animation-fill-mode: both, forwards;
 }
 #yearodex2016 {
-    animation: yearodex 3s;
-    animation-delay: 23s;
-    animation-fill-mode: both
+    animation: yearodexTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 17s, 52s;
+    animation-fill-mode: both, forwards;
 }
 #yearodex2017 {
-    animation: yearodex 3s;
-    animation-delay: 26s;
-    animation-fill-mode: both
+    animation: yearodexTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 22s, 52s;
+    animation-fill-mode: both, forwards;
 }
 #yearodex2018 {
-    animation: yearodex 3s;
-    animation-delay: 29s;
-    animation-fill-mode: both
+    animation: yearodexTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 27s, 52s;
+    animation-fill-mode: both, forwards;
 }
 #yearodex2019 {
-    animation: yearodex 3s;
-    animation-delay: 32s;
-    animation-fill-mode: both
+    animation: yearodexTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 32s, 52s;
+    animation-fill-mode: both, forwards;
 }
 #yearodex2020 {
-    animation: yearodex 3s;
-    animation-delay: 33s;
-    animation-fill-mode: both
+    animation: yearodexTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 37s, 52s;
+    animation-fill-mode: both, forwards;
 }
 #yearodex2021 {
-    animation: yearodex 3s;
-    animation-delay: 35s;
-    animation-fill-mode: both
+    animation: yearodexTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 42s, 52s;
+    animation-fill-mode: both, forwards;
 }
 #yearodex2022 {
-    animation: yearodex 3s;
-    animation-delay: 38s;
-    animation-fill-mode: both
+    animation: yearodexTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 47s, 52s;
+    animation-fill-mode: both, forwards;
 }
+
 
 /* Description transition */
 @keyframes transitionUp {
@@ -221,7 +264,7 @@ h5 {
     }
 }
 #mapdescription {
-    animation: transitionUp 5s;
-    animation-delay: 9s;
+    animation: transitionUp 3s;
+    animation-delay: 7s;
     animation-fill-mode: both;
 }

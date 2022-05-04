@@ -66,31 +66,31 @@ d3.json("Missing_Migrants_processed.geojson").then(data => {
     
     // Create circlemarkers for each year with separate classes so as to delay transitions
     if (x.Year === 2014) {
-      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, color: 'red', fillOpacity: 1, className: 'circle-transition14'}).bindPopup(popup).addTo(map);
+      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, fillOpacity: 1, className: 'circle-transition14'}).bindPopup(popup).addTo(map);
     }
     else if (x.Year === 2015) {
-      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, color: 'red', fillOpacity: 1, className: 'circle-transition15'}).bindPopup(popup).addTo(map);
+      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, fillOpacity: 1, className: 'circle-transition15'}).bindPopup(popup).addTo(map);
     }
     else if (x.Year === 2016) {
-      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, color: 'red', fillOpacity: 1, className: 'circle-transition16'}).bindPopup(popup).addTo(map);
+      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, fillOpacity: 1, className: 'circle-transition16'}).bindPopup(popup).addTo(map);
     }
     else if (x.Year === 2017) {
-      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, color: 'red', fillOpacity: 1, className: 'circle-transition17'}).bindPopup(popup).addTo(map);
+      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, fillOpacity: 1, className: 'circle-transition17'}).bindPopup(popup).addTo(map);
     }
     else if (x.Year === 2018) {
-      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, color: 'red', fillOpacity: 1, className: 'circle-transition18'}).bindPopup(popup).addTo(map);
+      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, fillOpacity: 1, className: 'circle-transition18'}).bindPopup(popup).addTo(map);
     }
     else if (x.Year === 2019) {
-      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, color: 'red', fillOpacity: 1, className: 'circle-transition19'}).bindPopup(popup).addTo(map);
+      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, fillOpacity: 1, className: 'circle-transition19'}).bindPopup(popup).addTo(map);
     }
     else if (x.Year === 2020) {
-      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, color: 'red', fillOpacity: 1, className: 'circle-transition20'}).bindPopup(popup).addTo(map);
+      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, fillOpacity: 1, className: 'circle-transition20'}).bindPopup(popup).addTo(map);
     }
     else if (x.Year === 2021) {
-      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, color: 'red', fillOpacity: 1, className: 'circle-transition21'}).bindPopup(popup).addTo(map);
+      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, fillOpacity: 1, className: 'circle-transition21'}).bindPopup(popup).addTo(map);
     }
     else if (x.Year === 2022) {
-      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, color: 'red', fillOpacity: 1, className: 'circle-transition22'}).bindPopup(popup).addTo(map);
+      marker = L.circleMarker(x.latLng, {title: 'Dead: ' + x.dead, radius: 1, fillOpacity: 1, className: 'circle-transition22'}).bindPopup(popup).addTo(map);
     }
     
     // Open popups on mouseover/hover
