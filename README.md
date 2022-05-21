@@ -7,7 +7,7 @@ Originally inspired by an assignment to utilize Leaflet, I was immediately drawn
 1. [Page](https://beninbar.github.io/Migrant-deaths-2014-2022/finalproject.html)
 2. [Github](https://github.com/beninbar/Migrant-deaths-2014-2022)
 
-## Data pulled from
+## Data source
 [The Missing Migrants Project](https://missingmigrants.iom.int/downloads)
 
 ## Process
