@@ -45,6 +45,7 @@ d3.json("Missing_Migrants_processed.geojson").then(data => {
     // This return returns an object.
     return {
       Incident: feature.properties["Incident ID"],
+      date_orig: feature.properties["Incident Date"],
       date: new Date(feature.properties["Incident Date"]),  // Note 15 dates were manually input here to run d3.line chart data.
       Year: feature.properties["Incident year"],
       dead: feature.properties["Number of Dead"],
@@ -360,7 +361,8 @@ d3.json("Missing_Migrants_processed.geojson").then(data => {
     .attr("y", d => yScale(d.dead_and_missing))
     .attr("fill", "darkblue")
       .on("mouseover", function(d, i) {
-        tooltip.html(`<div>Number of victims: ${i.dead_and_missing}</div><div>Number of children: ${i.children}</div><div>Location: ${i.location}</div>`).style("visibility", "visible").style("opacity", 0.75)
+        tooltip.html(`<div>Date: ${i.date_orig}</div><div>Number of victims: ${i.dead_and_missing}</div><div>Number of children: ${i.children}</div><div>Location: ${i.location}</div>`)
+          .style("visibility", "visible").style("opacity", 0.75)
         d3.select(this).transition().attr("fill", "red");
       })
       .on("mousemove", function(d) {
