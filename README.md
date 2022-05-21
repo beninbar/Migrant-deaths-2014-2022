@@ -19,6 +19,7 @@ The first iteration wireframe provided a structure that was later simplified:
 
 For color palettes, I [found compelling images](https://unsplash.com/s/photos/migrant) that spoke to the theme, and [generated](https://palettegenerator.com/) associated color palettes:
 ![Screenshot 2022-05-20 223902](https://user-images.githubusercontent.com/61599562/169631132-18d28a8d-61ff-4495-b125-99517a6c3098.jpg)
+----------------------------------------------------------------------------------------------------------------------------------------
 ![Screenshot 2022-05-20 224657](https://user-images.githubusercontent.com/61599562/169631433-aeb6787b-0483-45c9-b77b-0e6b6128b5d8.jpg)
 ![Screenshot 2022-05-20 224808](https://user-images.githubusercontent.com/61599562/169631439-3997466e-fbab-4395-827b-d64085070731.jpg)
 ![Screenshot 2022-05-20 224134](https://user-images.githubusercontent.com/61599562/169631213-78c04455-09ce-44ba-855f-4d495208b9a7.jpg)
