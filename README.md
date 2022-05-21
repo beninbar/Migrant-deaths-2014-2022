@@ -32,6 +32,9 @@ Creating the desired experience of an ebb/flow on the webpage itself required ex
 https://user-images.githubusercontent.com/61599562/169633922-e8359b35-9d10-46f2-833d-552049850fd0.mp4
 
 
+Then, using D3.js, I began the process of charting the data non-geographically, to show trends over the timecourse of the set. Although the chart itself is impactful, adding mouseover/hover functionality provided more information.
+
+![Screenshot 2022-05-21 153223](https://user-images.githubusercontent.com/61599562/169666589-a78322fe-6454-4f07-b873-766a2a46f5b4.jpg)
 
 
 ## Future directions
