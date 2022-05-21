@@ -4,8 +4,8 @@ This project aims to bring attention to deaths occurring during or as a result o
 Originally inspired by an assignment to utilize Leaflet, I was immediately drawn to the highly reported but poorly understood migrant crisis, starting in Europe in 2014. Although a Google search today might provide maps, statistics, or other visual guides, this has been a recent phenomenon. Despite this, media attention to the various ongoing global migratory crisis "hotspots" remains transitory, contributing to a fragmented perspective. Indeed, digestible and centralized migrant death data, at least in Europe, was [not available until 2013](http://www.themigrantsfiles.com/), with the [UN International Organization for Migration](https://www.iom.int/iom-history) only initiating a public database in 2014.
 
 ## Project links
-[Page](https://beninbar.github.io/Migrant-deaths-2014-2022/finalproject.html)
-[Github](https://github.com/beninbar/Migrant-deaths-2014-2022)
+1. [Page](https://beninbar.github.io/Migrant-deaths-2014-2022/finalproject.html)
+<br>2. [Github](https://github.com/beninbar/Migrant-deaths-2014-2022)
 
 ## Data pulled from
 [The Missing Migrants Project](https://missingmigrants.iom.int/downloads)
