@@ -33,7 +33,7 @@ https://user-images.githubusercontent.com/61599562/169633922-e8359b35-9d10-46f2-
 
 
 
-In order to achieve the desired lat/long formats required by Leaflet, I processed the raw data geolocation points using a Python dataframe and regular expression patterns to eliminate the presumed GIS or other geosoftware text.
+In order to achieve the desired lat/long formats required by Leaflet, I processed the raw data geolocation points using a [Python dataframe](https://github.com/beninbar/Migrant-deaths-2014-2022/blob/34c27d875b6f5e8fa2184a934c060bbc469ea12b/Migrant%20data%20cleaning.ipynb) and regular expression patterns to eliminate the presumed GIS or other geosoftware text.
 
 ## Future directions
-Ultimately, this project feels foundational. Much of what excites me are possibilities with respect to expanding on the interactive graphics found below the map on the page. There are several dimensions within the dataset that warrant further exploration i.e. analysing events by demography, by cause of death, by region or country of origin, or by further scrutinizing the source material for each report. There are also many null values within the set that could be cleaned or potentially evaluated for weaknesses in recordkeeping.
+Ultimately, this project is the first stage in future exploration of these data. Much of what excites me are possibilities with respect to expanding on the interactive graphics found below the map on the page. There are several dimensions within the dataset that warrant further exploration i.e. analysing events by demography, by cause of death, by region or country of origin, or by further scrutinizing the source material for each report. There are also many null values within the set that could be cleaned or potentially evaluated for weaknesses in recordkeeping. And of course, the data are continually updated by the UN.
