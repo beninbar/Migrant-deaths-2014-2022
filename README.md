@@ -11,7 +11,7 @@ Originally inspired by an assignment to utilize Leaflet, I was immediately drawn
 [The Missing Migrants Project](https://missingmigrants.iom.int/downloads)
 
 ## Process
-The main goal was to immerse the viewer into the graphical experience. The page by itself utilizes a clean, soft dynamic that attempts to mimic the behaviors characteristic of the open ocean: the waveform of graphics entering the page, the horizon-esque blue-based color schemes, the eyes drawn to single points of data or text in a vast space.
+The main goal was to immerse the viewer into the graphical experience. The page by itself utilizes a clean, soft dynamic that attempts to mimic the behaviors characteristic of the open ocean: the waveform of graphics entering the page, the horizon-esque blue-based color schemes, with the eyes drawn to single points in an otherwise vast space.
 
 The first iteration wireframe provided a structure that was later simplified:
 ![Wireframe](https://user-images.githubusercontent.com/61599562/169631024-2e544c71-7b9b-45eb-b39d-25439a4f0c5b.jpg)
