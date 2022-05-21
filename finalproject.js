@@ -348,7 +348,7 @@ d3.json("Missing_Migrants_processed.geojson").then(data => {
     .append("text")
     .attr("fill", "white")
     .attr("transform", `translate(-35, ${height*.5-margin.top-margin.bottom})rotate(-90)`)
-    .text("Victims")
+    .text("Number dead or missing")
     .style("font-size", 20)
   
   svg.selectAll("rect")
