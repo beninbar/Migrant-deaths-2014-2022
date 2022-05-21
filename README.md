@@ -16,3 +16,11 @@ The main goal was to immerse the viewer into the graphical experience. The page 
 The first iteration wireframe provided a structure that was later simplified:
 ![Wireframe](https://user-images.githubusercontent.com/61599562/169631024-2e544c71-7b9b-45eb-b39d-25439a4f0c5b.jpg)
 
+For color palettes, I found compelling images that spoke to the theme, and generated associated color palettes:
+![Screenshot 2022-05-20 223902](https://user-images.githubusercontent.com/61599562/169631132-18d28a8d-61ff-4495-b125-99517a6c3098.jpg)
+![image](https://user-images.githubusercontent.com/61599562/169631173-01b49e67-c247-48ab-bc17-6c58bd78ac13.png)
+![Screenshot 2022-05-20 224205](https://user-images.githubusercontent.com/61599562/169631229-b56542d3-7751-4e4d-9f5c-fe4d1f1accac.jpg)
+![Screenshot 2022-05-20 224134](https://user-images.githubusercontent.com/61599562/169631213-78c04455-09ce-44ba-855f-4d495208b9a7.jpg)
+
+
+Google provided an elegant, minimalist font: [Raleway](https://fonts.google.com/specimen/Raleway)
