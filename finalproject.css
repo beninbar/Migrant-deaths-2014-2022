@@ -16,9 +16,9 @@ html {
 }
 h1 {
     justify-items: center;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Raleway';
     color: white;
-    font-weight: 500;
+    font-weight: lighter;
 }
 h3 {
     margin-top: 10px;
@@ -28,15 +28,37 @@ h5 {
 }
 h3, h5 {
     text-align: center;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Raleway';
     color: white;
-    font-weight: 600;
+    font-weight: 400;
 }
-/*h6 {
+button {
+    text-align: justify;
+    background: none;
+    border: white;
+}
+hr {
+    background-color: white;
+    width: 60%;
+}
+hr.footnotes-sep {
+    background-color: white;
+    margin: 0px;
+    opacity: 0.5;
+    width: 30%;
+}
+hr.nextsection {
+    background-color: white;
+    opacity: 0.2;
+    width: 90%;
+    margin-bottom: 30px;
+}
+#clickhere {
     text-align: center;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Raleway';
     color: white;
-}*/
+    font-weight: lighter;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -46,11 +68,17 @@ h3, h5 {
 }
 #mapdescription {
     text-align: justify;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Raleway';
     color: white;
-    font-weight: bold;
     width: 1200px;
     margin-top: 5px;
+}
+.footnotes {
+    font-size: xx-small;
+}
+.footnotes-list {
+    padding-inline-start: 5px;
+    margin-inline-start: 5px;
 }
 a {
     color: lightskyblue;
@@ -76,6 +104,57 @@ a {
 .leaflet-popup-tip {
     background: #D5E8EB;
 }
+.leaflet-interactive {
+    stroke: red;
+}
+.linechartsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 15%;
+    overflow: hidden
+}
+#linechartdescription {
+    text-align: left;
+    font-family: 'Raleway';
+    color: white;
+    margin-top: 8%;
+}
+.tooltip {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: red;
+    pointer-events: none;  /* in order to stop tooltip from flickering when mouse is on tooltip itself */
+}
+
+/*#dropdown {
+    position: absolute;  // Set this and set parent .linechartsection position relative to keep dropdown from moving all content
+    top: 100px;
+    right: 30%;
+    z-index: 1;
+    display: block;
+    background-color: #aa8888;
+    color: white;
+    width: 150px;
+    font-size: 15px;
+    box-shadow: 0 0 5px white;
+    cursor: pointer;
+    text-align: center;
+}
+#dropdown option {
+    display: none;
+}
+#dropdown:hover option {
+    background-color: #aa8888;
+    color: white;
+    display: block;
+}
+#dropdown option:hover {
+    background-color: #223355;
+}*/
 
 /* Heading and map transition */
 @keyframes transitionDown {
@@ -249,6 +328,12 @@ h5 {
     animation-delay: 47s, 52s;
     animation-fill-mode: both, forwards;
 }
+#allyears {
+    animation: yearodexTrans, makevisible;
+    animation-duration: 5s, 5s;
+    animation-delay: 52s, 52s;
+    animation-fill-mode: both, forwards;
+}
 
 
 /* Description transition */
@@ -266,5 +351,20 @@ h5 {
 #mapdescription {
     animation: transitionUp 3s;
     animation-delay: 7s;
+    animation-fill-mode: both;
+}
+
+/* Click here and hr transition */
+@keyframes clickheredelay {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#clickhere, hr.clickherehr {
+    animation: clickheredelay 3s;
+    animation-delay: 53s;
     animation-fill-mode: both;
 }

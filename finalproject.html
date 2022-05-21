@@ -11,30 +11,45 @@
   <body>
     <div class="container">
       <h3>Where are they?</h3>
-      <h5>Migrant deaths, 2014-2022 (February)</h5>
+      <h5>Migrant deaths, Jan 2014 - Feb 2022</h5>
         <div class="row">
           <div class="col-md-1" id="yearodex">
-            <h1 id="yearodex2014">2014</h1>
-            <h1 id="yearodex2015">2015</h1>
-            <h1 id="yearodex2016">2016</h1>
-            <h1 id="yearodex2017">2017</h1>
-            <h1 id="yearodex2018">2018</h1>
-            <h1 id="yearodex2019">2019</h1>
-            <h1 id="yearodex2020">2020</h1>
-            <h1 id="yearodex2021">2021</h1>
-            <h1 id="yearodex2022">2022</h1>
+            <button id="yearodex2014"><h1>2014</h1></button>
+            <button id="yearodex2015"><h1>2015</h1></button>
+            <button id="yearodex2016"><h1>2016</h1></button>
+            <button id="yearodex2017"><h1>2017</h1></button>
+            <button id="yearodex2018"><h1>2018</h1></button>
+            <button id="yearodex2019"><h1>2019</h1></button>
+            <button id="yearodex2020"><h1>2020</h1></button>
+            <button id="yearodex2021"><h1>2021</h1></button>
+            <button id="yearodex2022"><h1>2022</h1></button>
+            <button id="allyears"><h1>All</h1></button>
+            <hr class="clickherehr">
+            <h6 id="clickhere">Click on a year to explore.</h6>
           </div>
           <div class="col-md-11" id="mapcolumn">
             <div id="migrantdeaths" class="map"></div>
             <div id="mapdescription"></div>
           </div>
         </div>
+        <hr class="nextsection">
+        <br>
+    </div>
+    <div class="linechartsection">
+      <!--<button id="dropdown" name="dropdown">Select</button>--> <!-- selectable button for future. Also check CSS file-->
+      <div class="row">
+        <div class="col-md-10" id="linechart"></div>
+        <div class="col-md-2" id="linechartdescription"></div>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
-
+    
+    <!--lodash-->
+    <script src='https://cdn.jsdelivr.net/lodash/4.17.2/lodash.min.js'></script>
+    
     <!---Markdown--->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.0/markdown-it.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it-footnote/3.0.2/markdown-it-footnote.js"></script>
