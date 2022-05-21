@@ -27,7 +27,7 @@ For color palettes, I [found compelling images](https://unsplash.com/s/photos/mi
 
 Google provided an elegant, minimalist font: [Raleway](https://fonts.google.com/specimen/Raleway)
 
-Creating the desired experience of an ebb/flow on the webpage itself required extensive use of CSS Keyframe animations, in addition to fiddling with Leaflet classes:
+Creating the desired experience of an ebb/flow on the webpage itself required extensive use of CSS Keyframe animations, in addition to fiddling with Leaflet classes. Data was split by year and tied to clickable button elements that could call Leaflet layers:
 
 https://user-images.githubusercontent.com/61599562/169633922-e8359b35-9d10-46f2-833d-552049850fd0.mp4
 
