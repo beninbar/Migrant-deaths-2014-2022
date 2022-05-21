@@ -28,7 +28,7 @@ For color palettes, I [found compelling images](https://unsplash.com/s/photos/mi
 Google provided an elegant, minimalist font: [Raleway](https://fonts.google.com/specimen/Raleway)
 
 Creating the desired experience on the webpage itself required extensive use of CSS Keyframe animations (in addition to fiddling with Leaflet classes):
-https://user-images.githubusercontent.com/61599562/169632944-d89ece39-b4ef-46e5-b89b-f7202501bdbe.mp4.mov
+https://user-images.githubusercontent.com/61599562/169632944-d89ece39-b4ef-46e5-b89b-f7202501bdbe.mov
 
 In order to achieve the desired lat/long formats required by Leaflet, I processed the raw data geolocation points using a Python dataframe and regular expression patterns to eliminate the presumed GIS or other geosoftware text.
 
