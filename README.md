@@ -16,8 +16,8 @@ The main goal was to immerse the viewer into the graphical experience. The page 
 The first iteration wireframe provided a structure that was later simplified:
 ![Wireframe](https://user-images.githubusercontent.com/61599562/169631024-2e544c71-7b9b-45eb-b39d-25439a4f0c5b.jpg)
 
-
 For color palettes, I [found compelling images](https://unsplash.com/s/photos/migrant) that spoke to the theme, and [generated](https://palettegenerator.com/) associated color palettes:
+
 ![Screenshot 2022-05-20 223902](https://user-images.githubusercontent.com/61599562/169631132-18d28a8d-61ff-4495-b125-99517a6c3098.jpg)
 ----------------------------------------------------------------------------------------------------------------------------------------
 ![Screenshot 2022-05-20 224657](https://user-images.githubusercontent.com/61599562/169631433-aeb6787b-0483-45c9-b77b-0e6b6128b5d8.jpg)
@@ -27,3 +27,10 @@ For color palettes, I [found compelling images](https://unsplash.com/s/photos/mi
 
 Google provided an elegant, minimalist font: [Raleway](https://fonts.google.com/specimen/Raleway)
 
+Creating the desired experience on the webpage itself required extensive use of CSS Keyframe animations (in addition to fiddling with Leaflet classes):
+https://user-images.githubusercontent.com/61599562/169632944-d89ece39-b4ef-46e5-b89b-f7202501bdbe.mp4
+
+In order to achieve the desired lat/long formats required by Leaflet, I processed the raw data geolocation points using a Python dataframe and regular expression patterns to eliminate the presumed GIS or other geosoftware text.
+
+## Future directions
+Ultimately, this project feels foundational. Much of what excites me are possibilities with respect to expanding on the interactive graphics found below the map on the page. There are several dimensions within the dataset that warrant further exploration i.e. analysing events by demography, by cause of death, by region or country of origin, or by further scrutinizing the source material for each report. There are also many null values within the set that could be cleaned or potentially evaluated for weaknesses in recordkeeping.
