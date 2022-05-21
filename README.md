@@ -27,13 +27,12 @@ For color palettes, I [found compelling images](https://unsplash.com/s/photos/mi
 
 Google provided an elegant, minimalist font: [Raleway](https://fonts.google.com/specimen/Raleway)
 
-Creating the desired experience of an ebb/flow on the webpage itself required extensive use of CSS Keyframe animations, in addition to fiddling with Leaflet classes. Data was split by year and tied to clickable button elements that could call Leaflet layers:
+Creating the desired experience of an ebb/flow on the webpage itself required extensive use of CSS Keyframe animations, in addition to fiddling with Leaflet classes. Data was split by year and tied to clickable button elements that could call Leaflet layers. In order to achieve the desired lat/long formats required by Leaflet, I processed the raw data geolocation points using a [Python dataframe](https://github.com/beninbar/Migrant-deaths-2014-2022/blob/34c27d875b6f5e8fa2184a934c060bbc469ea12b/Migrant%20data%20cleaning.ipynb) and regular expression patterns to eliminate the presumed GIS/geosoftware text present in this dimension of the data.
 
 https://user-images.githubusercontent.com/61599562/169633922-e8359b35-9d10-46f2-833d-552049850fd0.mp4
 
 
 
-In order to achieve the desired lat/long formats required by Leaflet, I processed the raw data geolocation points using a [Python dataframe](https://github.com/beninbar/Migrant-deaths-2014-2022/blob/34c27d875b6f5e8fa2184a934c060bbc469ea12b/Migrant%20data%20cleaning.ipynb) and regular expression patterns to eliminate the presumed GIS or other geosoftware text.
 
 ## Future directions
 Ultimately, this project is the first stage in future exploration of these data. Much of what excites me are possibilities with respect to expanding on the interactive graphics found below the map on the page. There are several dimensions within the dataset that warrant further exploration i.e. analysing events by demography, by cause of death, by region or country of origin, or by further scrutinizing the source material for each report. There are also many null values within the set that could be cleaned or potentially evaluated for weaknesses in recordkeeping. And of course, the data are continually updated by the UN. D3.js represents a powerful tool for such work.
